@@ -60,48 +60,43 @@ const questions = [
         answer: "True"
     },
     {
-        title: "13. A ___ allows users to move from one webpage to another",
-        choies: ["browser", "video", "HTML", "hyperlink"],
-        answer: "hyperlink"
+        title: "13. The entire definition list should be enclosed within ___ and ___ tags.",
+        choies: ["<dd></dd>", "<dt></dt>", "<dl></dl>", "<dvr></dvr>"],
+        answer: "<dl></dl>"
     },
     {
-        title: "14. A ___ allows users to move from one webpage to another",
-        choies: ["browser", "video", "HTML", "hyperlink"],
-        answer: "hyperlink"
+        title: "14. Where is the correct place to put the title tag in an HTML document?",
+        choies: ["Above the HTML tag", "In the head of the document", "In the body of the document", "It doesn't matter"],
+        answer: "In the head of the document"
     },
     {
-        title: "15. A ___ allows users to move from one webpage to another",
-        choies: ["browser", "video", "HTML", "hyperlink"],
-        answer: "hyperlink"
+        title: "15. How do you add a comment in a CSS file?",
+        choies: ["/*this is a comment*/", "//this is a comment//", "//this is a comment", "<!this is a comment>"],
+        answer: "/*this is a comment*/"
     },
     {
-        title: "16. A ___ allows users to move from one webpage to another",
-        choies: ["browser", "video", "HTML", "hyperlink"],
-        answer: "hyperlink"
+        title: "16. What does CSS stand for?",
+        choies: ["Custom Style Sheets", "Colorful Style Sheets", "Compute Style Sheets", "Cascading Style Sheets"],
+        answer: "Cascading Style Sheets"
     },
     {
-        title: "17. A ___ allows users to move from one webpage to another",
-        choies: ["browser", "video", "HTML", "hyperlink"],
-        answer: "hyperlink"
+        title: "17. The # symbol specifies that the selector is?",
+        choies: ["class", "tag", "first", "id"],
+        answer: "id"
     },
     {
-        title: "18. A ___ allows users to move from one webpage to another",
-        choies: ["browser", "video", "HTML", "hyperlink"],
-        answer: "hyperlink"
+        title: "18. Which is the correct CSS syntax?",
+        choies: ["{p:color=black(p}", "p {color:black;}", "{p;color:black}", "p:color=black"],
+        answer: "p {color:black;}"
     },
     {
-        title: "19. A ___ allows users to move from one webpage to another",
-        choies: ["browser", "video", "HTML", "hyperlink"],
-        answer: "hyperlink"
+        title: "19. How do you display hyperlinks without an underline?",
+        choies: ["a {decoration:no underline}", "a {text-decorations:none}", "a {hyperlink:none}", "a {text-decoration:no underline}"],
+        answer: "a {text-decorations:none}"
     },
     {
-        title: "20. A ___ allows users to move from one webpage to another",
-        choies: ["browser", "video", "HTML", "hyperlink"],
-        answer: "hyperlink"
-    },
-    {
-        title: "21. A ___ allows users to move from one webpage to another",
-        choies: ["browser", "video", "HTML", "hyperlink"],
-        answer: "hyperlink"
-    },
+        title: "20. Which HTML tag is used to define an internal style sheet?",
+        choies: ["<css>", "<script>", "<style>", "<iss>"],
+        answer: "<style>"
+    }
 ]
