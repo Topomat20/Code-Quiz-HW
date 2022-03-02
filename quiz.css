@@ -1,0 +1,47 @@
+body {
+    height: 500px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+}
+a:link {
+    color: darkred;
+}
+a:hover {
+    color: palevioletred;
+}
+a:visited {
+    color: red;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 40px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+}
+p {
+    text-align: center;
+}
+button {
+    background-color: red;
+    border: tomato;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
