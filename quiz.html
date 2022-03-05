@@ -7,18 +7,19 @@
     <title>Code Quiz</title>
   </head>
   <body>
-      <header>
+      <header id="currentTime">
           <a href="file:///C:/Users/Kayla/code/HomeWork/Code-Quiz-HW/score.html">View Highscores</a>
-          <div id="timer">seconds</div>
+          <div id="timer"></div>
       </header>
-      <section>
-          <div class="box" id="questions">
+      <main>
+          <section class="box" id="questions">
             <h1>Coding Quiz</h1>
             <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <button id="startBtn">Start Quiz</button>
             <ul id="choices"></ul>
-            <button>Start Quiz</button>
-          </div>
-      </section>
+          </section>
+      </main>
+      
      <script src="quiz.js"></script>
   </body>
 </html>

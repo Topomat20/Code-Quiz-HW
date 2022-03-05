@@ -7,14 +7,16 @@
     <title>High Score</title>
   </head>
   <body>
+    <header id="currentTime">
+      <button id="goBack">Back</button>
+    </header>
       <section>
           <div class="box">
             <h1>Highscores</h1>
-            <div>
-                <label id="yourHiScore" for="lable">You scored</label>
-                <input type="text">
-                <button>Submit</button>
-            </div>
+              <div>
+                <ul id="highScore"></ul>
+              </div>
+              <button id="clear" value="reset">Clear Highscore</button>
             <ul id="scoresList"></ul>
           </div>
       </section>

@@ -2,6 +2,10 @@ body {
     height: 500px;
 }
 
+header {
+    margin: 5px;
+    padding: 5px;
+}
 section {
     display: flex;
     flex-direction: column;
@@ -9,6 +13,7 @@ section {
     justify-content: center;
     height: 100%;
 }
+
 
 h1 {
     font-size: 40px;
@@ -20,12 +25,19 @@ label {
     font-size: 20px;
 }
 
-input {
-    font-size: 15px;
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 button {
     background-color: red;
+    border-radius: 5px;
     border: tomato;
     color: white;
     font-size: 15px;
+}
+
+ul {
+    list-style-type: none;
 }
